@@ -7,7 +7,7 @@ import {splitIntoWords} from "./01-hello-tests/01";
 
 
 const sentense = "Hello my friends!";
-const result = splitIntoWords("sentense")
+const result = splitIntoWords(sentense)
 console.log(result)
 
 const root = ReactDOM.createRoot(
